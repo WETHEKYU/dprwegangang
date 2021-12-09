@@ -1,48 +1,4 @@
-
-
-
-
-
-
 /************               PROFIL DANS LES MESSAGES              ***************/
-
-
-
-.favicon{background-color: var(--white3); border:1px solid rgba(138, 169, 187,0.2);
-height:22px;
-margin-top:-26px;
-position:absolute;left:2px;top:26px;
-width:200px;
-overflow:hidden;
-line-height:11px;
-transition:1s all;}
-
-.favicon span.label{display:none;}
-
-.favicon img{margin-left:10px; margin-top:2px;}
-
-.favicon:hover{height:100px;}
-
-.ava_pst{width:200px; height:320px; margin:auto;
-opacity:1;
-transition:all 1s;
-border:1px solid #f3f3f3;}
-
-.cach_img{border:1px solid var(--couleur205); background-color:#F3F3F3; padding:5px;
-height:308px; width:188px; margin-top:-322px; margin-left:2px;}
-
-.pfil_msg{margin-top:24px;}
-
-.pfil_msg .cach_img{position: absolute; opacity:0; transition:opacity 1.3s;}
-
-.pfil_msg:hover .cach_img{opacity:1;}
-
-.pfil_msg:hover .ava_pst{opacity:0.00;}
-
-.fc_cps span.label, .cred_cps span.label{display:none;}
-
-.fc_cps{color:#9F9EB0; font-size:15px; margin-bottom:-12px; text-align:center;
-font-family:bebas neue;/************               PROFIL DANS LES MESSAGES              ***************/
 
 
 
@@ -986,7 +942,7 @@ padding-top:11px;
 .co_qeel{margin-top:10px;}
 
 .co_qeel a{text-transform:lowercase;}
-fu{font-family:arial;text-transform:uppercase;
+fu{font-family:arial;text-transform:uppercase; margin-bottom:3px;
 font-size:7px;font-weight:700;background-color:#8aa9bb;padding-right:5px; padding-left:5px;display:inline-block;margin-top:-6px;
 color:var(--white2);height:11px;line-height:11px;border:1px solid #85a3b5;text-shadow:0px 1px #585858;transition:1s all;}
 
