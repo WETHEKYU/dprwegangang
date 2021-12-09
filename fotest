@@ -375,6 +375,10 @@ line-height:18px;color:var(--grey17);}
 #quick_reply{margin-top:5px;}
 .sceditor-button, .sceditor-group{background-color:var(--white1)!important;}
 
+.row1 div#smileyContainer {min-width: 226px;
+    border: 1px solid rgba(138, 169, 187,0.1);
+    background-color: #F3f3f3;}
+
 .nav_bas{text-align:right;margin-top:5px;}
 
 .lanav_bas{margin-bottom:6px;}
