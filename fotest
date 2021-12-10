@@ -1168,6 +1168,7 @@ transition: 1s all;
 
 .mpfond td span.gen{text-transform:lowercase!important;font-size:10.15px;}
 
+.mpfond textarea, .mpfond input{background-color:rgba(260,260,260,0.9)!important;}
 
 
 /* --------------------- AFFICHAGE MP ----------------- */
