@@ -1158,6 +1158,16 @@ transition: 1s all;
     padding: 10px;margin-left: 10px;width: 100%;overflow: auto;}
 
  .lesmsgpv .sceditor-container{width:540px!important;}
+ 
+ .mpfond input[type="radio" i]{width:10px;}
+.mpfond input[type="text" i]{width:256px!important;}
+
+.mpfond input#profile_field_4_-12_0{width:68px!important;}
+.mpfond input#profile_field_6_17_content{width:170px!important;}
+.mpfond input#profile_field_6_17_alternative{width:190px!important;}
+
+.mpfond td span.gen{text-transform:lowercase!important;font-size:10.15px;}
+
 
 
 /* --------------------- AFFICHAGE MP ----------------- */
