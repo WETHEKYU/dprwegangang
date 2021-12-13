@@ -403,6 +403,8 @@ div.sceditor-group{border-bottom:0px solid!important;}
 
 .lanav_bas{margin-bottom:6px;}
 
+.nav .cate2, .nav .cate1, .nav .cate3, .nav .cate4, .nav .cate5, .nav .cate6{width:758px;margin-right:-50px; margin-left:14px!important;}
+
 
 
 /***** MODELES ADMINISTRATIF *****/
@@ -413,7 +415,8 @@ div.sceditor-group{border-bottom:0px solid!important;}
 .mood_mg{width:50px; height:50px; object-fit:cover; border-radius:50px; border:9px solid rgba(138, 169, 187)!important; opacity:0.7;}
 
 
-/***** MODELE STAFF   ******/
+/**------------------------                   MODELE STAFF              ---------------------------------**/
+
 .m_5 { background-color: var(--grey15); border: 1px solid var(--grey16); padding:15px; text-align: justify; width:430px;
 display:flex;}
 
