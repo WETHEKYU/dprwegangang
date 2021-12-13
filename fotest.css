@@ -1,4 +1,81 @@
-/************               PROFIL DANS LES MESSAGES              ***************/
+/*-------------------------------------------------                BARRE DE NAV                 -------------------------------------------------*/
+a.mainmenu img {
+display:none;
+}
+a.mainmenu[href="/"]
+{
+margin-right:-30px;margin-left:20px;
+}
+a.mainmenu[href="/faq"]
+{
+display: none;
+}
+a.mainmenu[href="/groups"]
+{
+display: none;
+}
+a.mainmenu[href="/search"]
+{
+display: none;
+}
+a.mainmenu[href="/calendar"]
+{
+display: none;
+}
+
+a.mainmenu{text-transform:lowercase;color:#9f9daf!important; font-size:10.15px;}
+
+.barrenav {
+    padding-bottom: .4pc;
+    display: flex; 
+line-height:25px;
+}
+
+td.barrenav {
+    background-color:var(--white5);
+background-image:url('');
+    border: solid var(--white5);
+    display: flex;
+    font-family: kiona;
+    font-weight: 900;
+    height: 20px;
+    justify-content: space-around;
+    left: 0;
+    margin-bottom: 5px;
+    margin-top: -42px;
+    outline: solid 2px rbg(25,19,19, 0.38);
+    outline-offset: -4px;
+    position: relative;
+    text-transform: uppercase;
+    top: 27px;
+    width: 770px;
+}
+
+
+td.barrenav a{font-size:9px;
+letter-spacing:0.5px; 
+margin-top:1px;
+height:26px;padding-left:10px;
+color: var(--couleur1)!important;text-transform:uppercase;transition:2s all;}
+
+td.barrenav a:hover{
+line-height:27px; 
+margin-top:0px; 
+padding-left:15px; 
+padding-right:15px; 
+height:26px;
+letter-spacing:2px;
+background-color:rgba(250,250,250,0.1);}
+
+.last-post-icon img{width:9px!important; height:5px;margin-top:0px;margin-bottom:0px;}
+
+
+
+
+
+
+
+/*--------------------------------------------------                    PROFIL DANS LES MESSAGES                  ---------------------------------------**/
 
 
 
@@ -144,7 +221,7 @@ text-transform:uppercase; font-size:7px; margin-top:17px; width:178px; }
 .aes_cps{margin-top:3px;}
 
 
-/*************               PROFILS TT COURT                 *************/
+/*-----------------------------------------                     PROFILS TT COURT                    ---------------------------------------------------*/
 
 .dos{position:relative;}
 .pf_tt1{margin:auto;display:flex;margin-top:10px; border:10px solid #fff; outline:1px solid #eeefee; height:80px; width:753px; margin-bottom:20px;margin-top:20px; background-color:#fff; }
@@ -231,7 +308,10 @@ display:inline-block;
 .pf_colnv a{font-size:7px;}
 
 
-/*------------------------------------                 MESSAGES TT COURT                     ----------------------------------------*/
+
+/*------------------------------------------                          MESSAGES TT COURT                       ---------------------------------------------*/
+
+
 
 .poster-list .poster:before {
     background: var(--poster-avatar,#cbcbcb), #ededed;background-position: center center;background-size: cover;border: 2px solid #F3F3F3;border-radius: 50%;
@@ -406,7 +486,9 @@ div.sceditor-group{border-bottom:0px solid!important;}
 
 
 
-/***** MODELES ADMINISTRATIF *****/
+/*--------------------------------------------------------------          MODELES ADMINISTRATIF        ---------------------------------------------------------*/
+
+
 
 .moodboard{width:252px; color:var(--grey4); margin:auto; text-transform:lowercase;}
 
@@ -414,7 +496,10 @@ div.sceditor-group{border-bottom:0px solid!important;}
 .mood_mg{width:50px; height:50px; object-fit:cover; border-radius:50px; border:9px solid rgba(138, 169, 187)!important; opacity:0.7;}
 
 
-/**------------------------                   MODELE STAFF              ---------------------------------**/
+
+/**-----------------------------------------------                      MODELE STAFF                      -----------------------------------------------**/
+
+
 
 .m_5 { background-color: var(--grey15); border: 1px solid var(--grey16); padding:15px; text-align: justify; width:430px;
 display:flex;}
@@ -428,7 +513,11 @@ display:flex;}
 .img_m2{width:90px; height:90px; object-fit:cover; border-radius:100px; margin-left:15px;  opacity:0.7; border:7px solid rgba(137, 183, 205,0.6);}
 .img_m3{width:90px; height:90px; object-fit:cover; border-radius:100px; margin-right:15px; margin-right:15px; opacity:0.7; border:7px solid rgba(10,10,10,0.2);}
 
-/******     BOTTINS      *****/
+
+
+/*----------------------------------------------------------------           BOTTINS           ---------------------------------------------------------------*/
+
+
 
 .btt{width:550px; height:600px; margin:auto;
 border:1px solid #f3f3f3;
@@ -500,7 +589,7 @@ height:25px; background-color:#8aa9bb; border:3px double #e7e7e7; line-height:27
 
 .btt_jenaimarredesdiv i, .btt_jenaimarredesdiv i2{margin-left:10px;}
 
-/*** FICHE LIENS ***/
+/*----------------------------------------------------------                  FICHE DE LIENS                  --------------------------------------------------*/
 
 .fdl_mq{position:relative; top:-73px;left:75px; width:250px; text-align:right; border:0px solid;}
 
@@ -580,7 +669,11 @@ text-orientation: upright; border:1px solid rgba(80,80,80,0.2); background-color
 
 .pasdesp{margin-top:-36px;}
 
-/****  PRE LIENS  ****/
+
+
+/*------------------------------------------------------                PRE LIENS              -------------------------------------------------------------*/
+
+
 
 .pl_ct{width:520px; background-color:#f3f3f3; border:1px solid #eeefee; margin:auto;}
 
@@ -608,7 +701,10 @@ ss{font-family:arial;font-weight:700;font-size:7px;text-transform:uppercase;back
 .sc_txt{border:1px solid rgb(241, 241, 241); width:249px;padding-right:6px;padding-left:6px; margin:auto;background-color:#fff;height:195px;outline:2px solid #f3f3f3; color: #919191; padding-top:4px;padding-bottom:4px;margin-top:-10px;overflow-y:auto;}
 
 
-/***** MODELE FICHE RP ****/
+
+/*----------------------------------------------------------          MODELE FICHE RP         --------------------------------------------------------------*/
+
+
 
 .rp_con{border:1px solid rgba(161, 158, 176,0.3); padding:15px;background-color:#fff;outline:2px solid #f3f3f3;color:#919191; width:470px;margin:auto;margin-top:2px; max-height:522px;}
 .s_a_r{display:flex;}
@@ -629,7 +725,7 @@ margin-top:20px; margin-left:55px;}
 }
 
 
-/******      FICHE DE PRESENTATION      ******/
+/*---------------------------------------------------------------------        FICHE DE PRESENTATION          -------------------------------------------------*/
 
 
 
@@ -740,7 +836,8 @@ margin:auto; width:440px; padding:20px; padding-top:15px;position:relative; heig
 
 
 
-/*** PREVISU MSGS  ****/
+/*----------------------------------------------------------------           PREVISU MSGS          ----------------------------------------------------------*/
+
 
 .thHead{
     background-image: none;
@@ -761,62 +858,9 @@ margin:auto; width:440px; padding:20px; padding-top:15px;position:relative; heig
 .postdetails{text-transform:lowercase; color:var(--grey4)!important;}
 
 
-/*** TOOLBAR ***/
+/*-----------------------------------------------------------            INDEX DU FORUM                 -------------------------------------------------------*/
 
-#fa_usermenu img {height: 122px;object-fit: cover;width: 110px;background-color: var(--couleur203);padding: 5px;border: 1px solid var(--couleur206);opacity: 0.8;}
-#fa_menu li {background-color: var(--white2);border: 1px solid var(--couleur102);display: flex;height: 12px;margin-top: 10px;font-size: 7px;padding: 0px 0px;color: black;align-items: center;justify-content: center;text-transform: uppercase;font-family: 'Work Sans';letter-spacing: 2px;margin-bottom:10px;}
-#fa_menulist :link, #fa_menulist :visited {color: var(--grey9)!important;}
-#fa_toolbar #fa_right .fa_separator {background-color: var(--white2);height: 0px;margin: 0;padding: 0;text-align: center;width: 100%;}
-#fa_ranktitle {overflow: hidden;text-align: center;text-overflow: ellipsis;white-space: nowrap;font-family: made saonara2;font-size: 16px;text-transform: uppercase;letter-spacing: 3px;word-spacing: 3px;}
-#fa_usermenu tr {text-transform: uppercase;letter-spacing: 2px;text-align: center;}
-#fa_toolbar #fa_service {display: inline-block!important;text-decoration: none!important;visibility: hidden!important;}
-#fa_toolbar #fa_icon {visibility: hidden!important;}
-span#fa_share {display:none!important;}
-a#fa_hide {display: none!important;}
-div#fa_search {display:none!important;}
-#fa_right a.rightHeaderLink {line-height: 30px;margin-left: 16px;margin-top: 5px;text-transform: uppercase;font-size: 9px;color: var(--couleur302)!important;letter-spacing: 1.5px;}
-#fa_toolbar {color: #FFF;font-family: Helvetica, Verdana, Arial;font-size: 16px;height: 40px;left: 0;z-index: 998;background-color: #1c1c1c;display: flex;justify-content: flex-start;}
-#fa_right #fa_menu #fa_welcome, #fa_right.notification #fa_menu #fa_welcome {margin-left: 90px;text-transform: uppercase;font-size: 9px;letter-spacing: 1.5px;color: var(--couleur204)!important;}
-#fa_right #fa_notifications, #fa_welcome {color: #fff;line-height: 30px;padding: 10px 10px;text-transform: uppercase;font-size: 9px;letter-spacing: 1.5px;color: var(--couleur302)!important;margin-top:-5px;}
-#fa_right.welcome #fa_menu ul {background-color: var(--white4);border: 1px solid var(--white2);left: 90px!important;position: relative;top: -4px;}
-
-.toptool {z-index: 997; height: 40px;width:100%; position: fixed; margin-top:-30px; text-align: center; background-color: #f6f6f6;border-bottom: 1px solid #ece4e4;}
-.simontool {color: var(--couleur201); font-family: love; font-size: 20px; letter-spacing: 3px; margin-top:-36px;}
-.quotetool {font-size:7px; font-family: arial; text-transform: uppercase; margin-top:25px; letter-spacing: 2.5px; color: var(--grey8); background-color:white; border-radius:5px; padding:1px 4px; width: 120px; font-weight: bold; text-align: center;}
-
-.fa_avatar img {border: 5px solid #f6f5f6; border-radius: 100%;height: 60px;left: 10px;object-fit: cover;position: absolute;width: 60px;}
-
-.toolright {position: fixed; top:0px; right:0px; height: 100%; width: 35px; background-color: #1c1c1c; border-left: 1px solid #ece4e4;}
-
-.topbouton {width:15px;
-  height:15px;
-  opacity: 0.2;
-margin-top:-30px;}
-
-.bottbouton{ width:15px;
-  height:15px;
-  opacity: 0.2;
-margin-top:30px;}
-  
-  
-  
-.hautbas, .hautbas a {
-    height: 100%;
-    /* margin-top: 2%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: flex-start;
-    align-items: center;
-    width: 20px;
-    flex-wrap: nowrap;
-  position: fixed;
-  margin-left: 2px;
-}
-
-/*------------------------------------------------------- INDEX DU FORUM --------------------------------------------------*/
-
-/*------------------------------------- CATEGORIES -------------------------------------*/
+/*-------------------------------------           CATEGORIES           -------------------------------------*/
 .autourcate {padding:10px;}
 
 .autourcate h2{border: 1px solid var(--couleur1)!important;
@@ -914,7 +958,7 @@ padding-top:11px;
 
 
 
-/*------------------------------------- QEEL -------------------------------------*/
+/*------------------------------------------------------------            QEEL          ----------------------------------------------------------------*/
 
 .qeel {
     height: 190px;
@@ -1021,7 +1065,9 @@ hh{color:#dadada; font-style:italic;transition:1s all;}
 
 .credits_qeel{margin-top:4px;}
 
-/* ------------------------------- BOUTONS NEW NO NEW ------------------------------- */
+
+/* --------------------------------------------------        BOUTONS NEW NO NEW         --------------------------------------------------------- */
+
 .newnonewindex {
     border-radius: 100%;
     left: 240px;
@@ -1065,7 +1111,8 @@ hh{color:#dadada; font-style:italic;transition:1s all;}
   background-size: 29px 28px; width: 230px; height: 68px;}
 
 
-/* --------------------------------------------------  QUOTE, CODE, SPOILER  -------------------------------------------------- */
+/* --------------------------------------------------          QUOTE, CODE, SPOILER        -------------------------------------------------- */
+
 .hidecode dd { display: inline-block; padding:10px; text-align:justify; color: var(--grey10); font-family: arial;}
 .quote {background-color: var(--white1);border: 1px solid var(--couleur203);color: var(--grey10);outline: 2px solid var(--couleur203);outline-offset: 2px;font-family: arial;display: block;padding: 10px;}
 .code {background-color: var(--white3);border: 1px solid var(--white3);outline: solid 2px var(--grey15);color: var(--grey10);outline-offset: -5px;padding: 10px;}
@@ -1074,43 +1121,12 @@ hh{color:#dadada; font-style:italic;transition:1s all;}
 .selectCode {background:linear-gradient(-170deg,#342c50, #452540);color: #e7e7e7; padding: 2px 10px;float: right; text-transform: uppercase;}
 .spoiler_closed {background: #f3f3f3;outline: 2px solid #fff;color: var(--grey15);outline-offset: -4px;padding: 0;}
 .spoiler_content {background-color: #f3f3f3;border: 1px solid #f3f3f3;color: var(--grey10);outline: 2px solid #f3f3f3;outline-offset: 2px;font-family: arial;display: block;padding: 10px;}
-/*-------------------------------------------------- ON Y RETOUCHERA JAMAIS DONC C EN BAS --------------------------------------------------*/
-/* --------------------- ALERTES ----------------- */
-.realTime_alert{position:fixed;top:50px;right:20px;min-height:60px;font-size:13px;width:200px;padding:10px 10px 10px 70px;font-family:Helvetica, arial;color:#d0d4dd;z-index:12747228463 !important;}
-.realTime_alert b{display:block;margin-bottom:5px;font-size:15px;}
-.realTime_alert .close{position:absolute;right:225px; color:black; top:5px;font-size:15px;height:16px;width:16px;text-align:center;line-height:13px;cursor:pointer;}
-#ebtzd .tooltip{opacity:0;position:relative;overflow:visible;z-index:100!important;display:inline-block;top:5px;-webkit-transition-duration:500ms;  -moz-transition-duration:500ms; -o-transition-duration:500ms;
-transition-duration:500ms;background:rgba(0, 0, 0, .8);padding:10px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;font-family:Helvetica, arial;letter-spacing:1px;font-size:13px;width:300px;
-color:#d0d4dd;}
-/*--------------------- SONDAGES ---------------------*/
-
-.rad-label {display: flex;align-items: center;padding: 4px 16px;cursor: pointer;transition: .3s;}
-.rad-label:hover, .rad-label:focus-within {background: -webkit-linear-gradient(45deg,var(--couleur301),var(--couleur203));}
-.rad-input {position: absolute;left: 0;top: 0;width: 1px;height: 1px;opacity: 0; z-index: -1;}
-.rad-input:checked+.rad-design::before {transform: scale(0);}
-.rad-design {width: 22px;height: 22px;background: -webkit-linear-gradient(45deg,var(--couleur301),var(--couleur203));position: relative;}
-.rad-design::before {content: '';display: inline-block;width: inherit;height: inherit;border-radius: inherit;background: hsl(0, 0%, 90%);transform: scale(1.1);transition: .3s;}
-.rad-text {color: hsl(0, 0%, 60%);margin-left: 14px;letter-spacing: 3px;text-transform: uppercase;font-size: 10px;font-weight: 700;transition: .3s;}
-.rad-input:checked~.rad-text {color: hsl(0, 0%, 40%);}
-.s_f { background-color: var(--grey15);border: 1px solid var(--couleur101);margin-left: 7px;}
-.s_q {font-family: fugaz one; color: var(--couleur302); font-weight: 600; font-size: 20px; letter-spacing:2px; text-transform: uppercase;}
 
 
 
+/*--------------------------------------------------        AFFICHAGE DES MP          --------------------------------------------------*/ 
 
-
-
-
-
-
-
-
-
-
-
-/*-------------------------------------------------- AFFICHAGE DES MP --------------------------------------------------*/ 
-
-/* ------------------------------- LISTING MP ------------------------------- */
+/* -------------------------------       LISTING MP      ------------------------------- */
 
 .mpfond {background-color: #eeefee; width: 760px;padding: 10px;margin-left: 10px;margin-top: -35px;}
 .topictitle {text-transform: uppercase;font-family: made saonara2;font-weight: 900;letter-spacing: -1px;font-size: 13px;
@@ -1192,7 +1208,8 @@ transition: 1s all;
 .mpfond textarea, .mpfond input{background-color:rgba(260,260,260,0.9)!important;}
 
 
-/* --------------------- AFFICHAGE MP ----------------- */
+/* ---------------------         AFFICHAGE MP     ----------------- */
+
 .mpr_1 {background-color: var(--white3);border: 1px solid var(--white1);outline: 1px solid var(--grey15);outline-offset: -3px;padding: 3px 10px;text-align: center;font-family: made saonara2;font-size: 15px;margin-bottom: -5px;letter-spacing: -2px;text-transform: uppercase;word-spacing: 3px;width: 140px;}
 .mpava {background-color: var(--white3);border: 1px solid var(--white1);outline: 1px solid var(--grey15);outline-offset: -3px; padding: 3px; width:154px;}
 .mpava img{height: 140px;object-fit: cover;opacity: 0.8;width: 153px;}
@@ -1213,7 +1230,10 @@ transition: 1s all;
 }
 
 
-/*-------------------------------------MEMBERLIST -------------------------------------*/
+/*-----------------------------------------------------------            MEMBERLIST             ---------------------------------------------------------------*/
+
+
+
 .g_div{display:flex; width:780px; margin:auto; flex-wrap: wrap;}
 .blocmember{float:left; margin:5px; width:185px; text-align:center; border-top:4px solid #eeefee; }
 .pseudomemberlist {font-family: love; font-size: 15px; text-transform: uppercase; letter-spacing: 0px;word-spacing:3px; margin-bottom: 2.5px; margin-top: 6px;}
@@ -1245,7 +1265,7 @@ transition: 1s all;
 .detmemberlist {font-family: 'arial'; text-transform: uppercase;font-size: 8px;letter-spacing: 0px;color: rgb(179, 179, 179);}
 
 
-/*-------------------------------------------------- CODAGE TEXTES / FICHES ADMINISTRATIFS --------------------------------------------------*/
+/*--------------------------------------------------          CODAGE TEXTES / FICHES ADMINISTRATIFS        --------------------------------------------------*/
 /* --------------------- MODELES ADMINISTRATIFS ----------------- */
 .m_0{background:-webkit-linear-gradient(-45deg,#eeefee,#eeefee); width:500px; padding:1px; box-shadow:0 0 0 4px #f3f3f36e;} 
 .m_1{background:-webkit-linear-gradient(-170deg,#8aa9bb,#a19daf); border: 1px solid rgb(243, 243, 243);height: 30px; padding: 5px; position: relative; text-align: center; text-transform: uppercase;} 
@@ -1322,10 +1342,6 @@ color:white;text-align:center;line-height:70px;font-size:20px;font-family:love; 
 transform: scale(1.5);image-rendering: pixelated;}
 
 .advjopen{filter:grayscale(0); opacity:1;}
-
-
-
-
 
 .flexbox{display:flex;justify-content:space-around;margin:10px auto -15px auto;width:400px;}
 
@@ -1409,3 +1425,26 @@ img.jrnl4{object-fit:cover;width:200px;height: 363px;opacity:0.6;float:left;marg
 .fp_2.jrnl1>merch>h1{display:inline-block;vertical-align: text-bottom;width: 120px;text-align: right;line-height: 97%;
     font-size: 8px;font-weight: 800;margin-right: 10px;}
 .fp_2.jrnl1>merch>i{font-size: 28px;color: var(--grey13);margin-left: 10px;}
+
+
+
+/*-------------------------------------------------- ON Y RETOUCHERA JAMAIS DONC C EN BAS --------------------------------------------------*/
+/* --------------------- ALERTES ----------------- */
+.realTime_alert{position:fixed;top:50px;right:20px;min-height:60px;font-size:13px;width:200px;padding:10px 10px 10px 70px;font-family:Helvetica, arial;color:#d0d4dd;z-index:12747228463 !important;}
+.realTime_alert b{display:block;margin-bottom:5px;font-size:15px;}
+.realTime_alert .close{position:absolute;right:225px; color:black; top:5px;font-size:15px;height:16px;width:16px;text-align:center;line-height:13px;cursor:pointer;}
+#ebtzd .tooltip{opacity:0;position:relative;overflow:visible;z-index:100!important;display:inline-block;top:5px;-webkit-transition-duration:500ms;  -moz-transition-duration:500ms; -o-transition-duration:500ms;
+transition-duration:500ms;background:rgba(0, 0, 0, .8);padding:10px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;font-family:Helvetica, arial;letter-spacing:1px;font-size:13px;width:300px;
+color:#d0d4dd;}
+/*--------------------- SONDAGES ---------------------*/
+
+.rad-label {display: flex;align-items: center;padding: 4px 16px;cursor: pointer;transition: .3s;}
+.rad-label:hover, .rad-label:focus-within {background: -webkit-linear-gradient(45deg,var(--couleur301),var(--couleur203));}
+.rad-input {position: absolute;left: 0;top: 0;width: 1px;height: 1px;opacity: 0; z-index: -1;}
+.rad-input:checked+.rad-design::before {transform: scale(0);}
+.rad-design {width: 22px;height: 22px;background: -webkit-linear-gradient(45deg,var(--couleur301),var(--couleur203));position: relative;}
+.rad-design::before {content: '';display: inline-block;width: inherit;height: inherit;border-radius: inherit;background: hsl(0, 0%, 90%);transform: scale(1.1);transition: .3s;}
+.rad-text {color: hsl(0, 0%, 60%);margin-left: 14px;letter-spacing: 3px;text-transform: uppercase;font-size: 10px;font-weight: 700;transition: .3s;}
+.rad-input:checked~.rad-text {color: hsl(0, 0%, 40%);}
+.s_f { background-color: var(--grey15);border: 1px solid var(--couleur101);margin-left: 7px;}
+.s_q {font-family: fugaz one; color: var(--couleur302); font-weight: 600; font-size: 20px; letter-spacing:2px; text-transform: uppercase;}
