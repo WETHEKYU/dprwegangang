@@ -857,11 +857,11 @@ margin-bottom:-1px;
     outline-offset: 0;
     box-shadow: 0 0 0 1px #ffffff;
     text-shadow: 1px 1px #818181;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding: 8px;
     transition: 2s all;
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: center;
     color: #ffffff;
     opacity: 0.8;
@@ -872,6 +872,7 @@ margin-bottom:-1px;
     font-weight: 800;
     border: 1px solid #ffffff;
 }
+
 .cate1:hover, .cate2:hover, .cate3:hover, .cate4:hover, .cate5:hover, .cate6:hover {letter-spacing:10px;}
 .cate1, .cate2, .cate3, .cate4, .cate5, .cate6 {
     background-image: url(https://images2.imgbox.com/eb/17/nKxYZfHp_o.png);
