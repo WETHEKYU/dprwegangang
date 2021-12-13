@@ -815,9 +815,9 @@ margin-top:30px;}
 /*------------------------------------- CATEGORIES -------------------------------------*/
 .autourcate {padding:10px;}
 
-.autourcate h2{border: 1px solid #1a1a1a;
-    outline: solid 1px #272020;
-    outline-offset: 0;line-height:23px;}
+.autourcate h2{border: 1px solid var(--couleur1)!important;
+    outline: solid 1px var(--white3)!important;
+    outline-offset: 0;line-height:23px;!important;}
 
     .containercate .border-forum{border: 0px solid #1a1a1a;
     outline: solid 0px #272020;
