@@ -639,12 +639,13 @@ display:inline-block;
 #field_id18{position:absolute; top:473px; left:92px; border:0px solid;width:50px; height:50px; text-align:center; line-height:35px;font-size:7px; color:var(--couleur1);}
 #field_id18 span{display:none;}
 
-.pf_inf3{background-color:var(--white8); border:1px solid var(--white3); text-transform:uppercase; font-size:7px; color:none; letter-spacing:0.5px; outline:2px solid var(--white6); outline-offset:-7px;}
+.pf_inf3{background-color:var(--white8); border:1px solid var(--white3); text-transform:uppercase; font-size:7px; color:var(--couleur1); letter-spacing:0.5px; outline:2px solid var(--white6); outline-offset:-7px;}
 
-.pf_cont{display:flex; margin-top:20px;  justify-content:space-between; width:510px; border:0px solid;padding-right:5px; padding-left:5px; color:none; background-color:var(--white8); height:30px; border:1px solid var(--white3);justify-content:center;}
-.pf_cont img{margin-top:5px;}
+.pf_cont{display:flex; margin-top:20px;  justify-content:center; width:510px; border:0px solid;padding-right:5px; padding-left:5px; color:none; background-color:var(--white8); height:30px; border:1px solid var(--white3);}
+.pf_cont img{margin-top:5px; }
 
-.pf_cont .field_uneditable{display:none;}
+.pf_cont .field_uneditable{display:flex; color:var(--white8);}
+
 
 #i_icon_email{display:none;}
 
@@ -660,9 +661,14 @@ display:inline-block;
 #field_id6 img{margin-left:-463px; margin-top:6px;}
 #field_id6 span{display:none;}
 
-.pf_colnv{transform: rotate(0deg); white-space:nowrap; width:773px!important; margin:auto;height:14px;border:0px solid; width:800px;text-align:center;letter-spacing:3px;text-transform:uppercase;font-size:7px;}
+
+.pf_colnv{transform: rotate(-90deg); white-space:nowrap; width:573px!important; margin:210px 0px -210px -40px;height:14px;border:0px solid; text-align:center;letter-spacing:3px;text-transform:uppercase;font-size:7px;}
 
 .pf_colnv a{font-size:7px;}
+
+.pf_colnv2{transform: rotate(0deg); white-space:nowrap; width:773px!important; margin:auto;height:14px;border:0px solid; width:800px;text-align:center;letter-spacing:13px;text-transform:uppercase;font-size:7px;color:var(--grey7)}
+
+.pf_colnv2 a{font-size:7px;}
 
 
 
