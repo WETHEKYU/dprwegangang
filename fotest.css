@@ -1261,7 +1261,8 @@ height:25px; background-color:var(--couleur202); border:3px double var(--white5)
 
 /*----------------------------------------------------------                  FICHE DE LIENS                  --------------------------------------------------*/
 
-.fdl_mq{position:relative; top:-73px;
+.fdl_mq{position:relative; 
+top:-68px;
 left:75px; 
 width:250px; 
 text-align:right; 
