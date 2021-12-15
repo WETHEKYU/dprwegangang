@@ -943,6 +943,7 @@ color:var(--couleur2)!important;
     height: 15px!important; 
     text-transform: uppercase!important; 
 box-shadow:0px 0px #FFFFFF!important;
+	line-height:10px;
 }
 
 .rep-button img{display:none;}
