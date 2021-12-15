@@ -674,36 +674,6 @@ display:inline-block;
 
 
 
-/*-------------------------------------------------------------            EDITION DU PROFIL            ----------------------------------------------------*/
-
-
-.signademescouilleslol2{width:800px;}
-
-.signademescouilleslol2 #parent_editor_simple.forumline{width:800px!important;}
-
-.signademescouilleslol2 #parent_editor_simple .row1{width:200px;}
-.signademescouilleslol2 #parent_editor_simple .row2 table .sceditor-container{width:565px!important;}
-
-/* notifs */
-
-.thCornerL{background-color:var(--white4);outline:1px solid var(--white2)!important;}
-.thCornerL{max-width:400px!important; min-width:00px!important;}
-.f_to .f_titre{margin-top:22px;}
-.f_to .tpc_desc{margin-bottom:0px;}
-
-.f_to span.gensmall{position:absolute;right:7px;bottom:6px;text-transform:lowercase;}
-
-.p_titre {color: var(--grey6);
-    font-family: 'bebas neue';
-    font-size: 18px!important;
-    letter-spacing: 4px;
-  text-align: center;
-  margin-top:20px;
-  margin-bottom: 20px;}
-
-.p_titre a{color:var(--couleur102)!important;}
-
-
 
 /*-----------------------------------------------------------           TOPICS/LISTE DES SUJETS             -------------------------------------------------*/
 
@@ -1815,6 +1785,36 @@ transition: 1s all;
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
+
+/*-------------------------------------------------------------            EDITION DU PROFIL            ----------------------------------------------------*/
+
+
+.signademescouilleslol2{width:800px;}
+
+.signademescouilleslol2 #parent_editor_simple.forumline{width:800px!important;}
+
+.signademescouilleslol2 #parent_editor_simple .row1{width:200px;}
+.signademescouilleslol2 #parent_editor_simple .row2 table .sceditor-container{width:565px!important;}
+
+/* notifs */
+
+.thCornerL{background-color:var(--white4);outline:1px solid var(--white2)!important;}
+.thCornerL{max-width:400px!important; min-width:00px!important;}
+.f_to .f_titre{margin-top:22px;}
+.f_to .tpc_desc{margin-bottom:0px;}
+
+.f_to span.gensmall{position:absolute;right:7px;bottom:6px;text-transform:lowercase;}
+
+.p_titre {color: var(--grey6);
+    font-family: 'bebas neue';
+    font-size: 18px!important;
+    letter-spacing: 4px;
+  text-align: center;
+  margin-top:20px;
+  margin-bottom: 20px;}
+
+.p_titre a{color:var(--couleur102)!important;}
 
 
 /*-----------------------------------------------------------            MEMBERLIST             ---------------------------------------------------------------*/
