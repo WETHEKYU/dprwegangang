@@ -689,7 +689,7 @@ display:inline-block;
 
 .nav2 div{margin-left:41px;}
 
-.suppr1truc h2{background-color: var(--white6);
+.suppr1truc h2{background-color: var(--white8);
     border: 1px solid var(--couleur208)!important;
     color: var(--couleur105);
     font-size: 10px;
@@ -716,9 +716,10 @@ letter-spacing:11px;}
     /* letter-spacing: 0.9px; */
     font-style: none;
     margin-top: -1px!important;
+text-transform:lowercase;
 }
 
-.f_tp1 {background: -webkit-linear-gradient(45deg,var(--white6),var(--white6));
+.f_tp1 {background: -webkit-linear-gradient(45deg,var(--white8),var(--white8));
     width: 150px;
     padding: 4px;
     height: 49px;
@@ -727,9 +728,9 @@ letter-spacing:11px;}
   top: 5px;}
 
 .f_tp2 {
-    background-color: var(--grey18);
+    background-color: var(--white6);
     border: 1px solid var(--couleur209);
-    outline: 1px solid var(--white8);
+    outline: 1px solid var(--white1);
     display: flex;
     flex-direction: column;
     height: 45px;
@@ -762,9 +763,9 @@ letter-spacing:11px;}
 
 .f_to span.gensmall img{display:none;}
 
-.f_to {background-color: var(--grey18);
+.f_to {background-color: var(--white6);
     border: 1px solid var(--couleur209);
-    outline: 1px solid var(--white8); 
+    outline: 1px solid var(--white1); 
     width: 404px;
     padding: 5px;
     position: absolute;
@@ -779,13 +780,13 @@ letter-spacing:11px;}
 .l_to {position: relative;
   height:69px;
   width:780px;
-background-color: var(--white6);
-border: 1px solid var(--white8);}
+background-color: var(--white8);
+border: 1px solid var(--white3);}
 
 .a_to img {height: 55px;
     width: 40px;
   object-fit:cover;
-  border: 1px solid var(--couleur209);
+  border: 1px solid var(--white3);
 position: absolute;
 left: 5px;
 top: 5px;opacity:0.9;}
@@ -798,7 +799,7 @@ td.cat, td.catBottom, td.catHead, td.catLeft, td.catRight, td.catSides {
     border-style: none;
     height: auto;}
 
-td.catRight, td.row3Right, th.thRight{border-right:1px solid #fff;}
+td.catRight, td.row3Right, th.thRight{border-right:1px solid var(--white6);}
 
 ru{font-family:arial;text-transform:uppercase;
 font-size:7px;font-weight:500;background-color:var(--couleur102);padding-right:5px; padding-left:5px;display:inline-block;margin-top:-6px;
