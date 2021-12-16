@@ -2113,18 +2113,26 @@ input.mpliste{color: var(--couleur102)!important;}
 
 
 .g_div{display:flex; width:780px; margin:auto; flex-wrap: wrap;}
-.blocmember{float:left; margin:5px; width:185px; text-align:center; border-top:4px solid #eeefee; }
-.pseudomemberlist {font-family: love; font-size: 15px; text-transform: uppercase; letter-spacing: 0px;word-spacing:3px; margin-bottom: 2.5px; margin-top: 6px;}
-.quotememberlist {color: var(--grey4);font-family: 'Arapey';font-size: 7px;margin-top: -16px;letter-spacing: 2px;text-transform: uppercase; font-style: italic;}
-.avatarmemberlist img {height:100px; width:171px; object-fit: cover; border:1px solid var(--white1);background-color:var(--white3); outline:1px solid var(--grey15);outline-offset:-3px; transition: 1.5s all;}
+
+.blocmember{float:left; margin:5px; width:185px; text-align:center; border-top:4px solid var(--couleur407); }
+
+.pseudomemberlist {font-family: glamore; font-size: 15px; text-transform: uppercase; letter-spacing: 0px;word-spacing:3px; margin-bottom: 2.5px; margin-top: 4px;}
+
+.quotememberlist {color: var(--grey1);font-family: 'mulli';font-size: 7px;margin-top: -16px;letter-spacing: 2px;text-transform: uppercase; font-style: italic;}
+
+.avatarmemberlist img {height:100px; width:171px; object-fit: cover; border:1px solid var(--couleur3);background-color:var(--white6); outline:1px solid var(--grey5);outline-offset:-3px; transition: 1.5s all;}
+
 .avatarmemberlist img:hover {height:150px;}
-.detailsmemberlist { background-color: var(--white1);border: 1px solid var(--grey15);outline: 1px solid var(--grey15);outline: 1px solid var(--grey15); margin-top: -47px; padding: 10px; width: 756px; display: flex; flex-direction: row;justify-content: center;}
-.joinedmemberlist {border:1px solid #f9f9f9;  color:#9f9f9f;background-color: #fbfbfb;height:12px;padding-top:5px; margin:auto; display:flex; justify-content:space-around; text-transform:uppercase; font-size:7px; margin-top:4px;  width:171px;}
+
+.detailsmemberlist { background-color: var(--white6);border: 1px solid var(--white3); margin-top: -47px; padding: 10px; width: 756px; display: flex; flex-direction: row;justify-content: center;}
+
+.joinedmemberlist {border:1px solid var(--white3);  color:var(--grey4);background-color: var(--white8);height:12px;padding-top:5px; margin:auto; display:flex; justify-content:space-around; text-transform:uppercase; font-size:7px; margin-top:4px;  width:171px;}
+
 .okmemberlist {
-    background-color: #fff!important;
-    border: 1px solid #eeefee;
-    outline: 1px solid #eeefee;
-    color: #8da8b9!important;
+    background-color: var(--white8)!important;
+    border: 1px solid var(--white3);
+    outline: 1px solid var(--white1);
+    color: var(--couleur103)!important;
     outline-offset: -3px;
     padding: 5px 10px;
     font-family: fugaz one;
@@ -2133,15 +2141,15 @@ input.mpliste{color: var(--couleur102)!important;}
     font-size: 13px;
 }
 .listmemberlist {
-    background-color: var(--grey15);
-    outline: 1px solid #eeefee;
-    border: 1px solid #eeefee;
+    background-color: var(--white8);
+    outline: 1px solid var(--white3);
+    border: 1px solid var(--white1);
     outline-offset: -3px;
     padding: 5px;
     width: 136px;
 }
-.detmemberlist {font-family: 'arial'; text-transform: uppercase;font-size: 8px;letter-spacing: 0px;color: rgb(179, 179, 179);}
 
+.detmemberlist {font-family: 'arial'; text-transform: uppercase;font-size: 8px;letter-spacing: 0px;color: var(--couleur106);}
 
 /*--------------------------------------------------          CODAGE TEXTES / FICHES ADMINISTRATIFS        --------------------------------------------------*/
 /* --------------------- MODELES ADMINISTRATIFS ----------------- */
