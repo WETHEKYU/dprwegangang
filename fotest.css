@@ -1966,12 +1966,12 @@ background-color:var(--couleur104);
 
 /* -------------------------------       LISTING MP      ------------------------------- */
 
-.mpfond {background-color: #eeefee; width: 760px;padding: 10px;margin-left: 10px;margin-top: -35px;}
-.topictitle {text-transform: uppercase;font-family: made saonara2;font-weight: 900;letter-spacing: -1px;font-size: 13px;
-  color: var(--couleur104)!important;
+.mpfond {background-color: var(--white8); width: 760px;padding: 10px;margin-left: 10px;margin-top: -35px;}
+
+.topictitle {text-transform: uppercase;font-family:glamore;font-weight: 900;letter-spacing:-0.7px;font-size: 13px;
+color: var(--couleur104)!important;
 width:370px;}
-.mpligne {
-    display: flex;
+.mpligne {display: flex;
     gap: 0px;
     justify-content: space-around;
     flex-direction: row;
@@ -1981,13 +1981,13 @@ width:370px;}
     flex-wrap: wrap;
 }
 
-.mpboite {background-color: var(--white3); padding: 5px; border:1px solid var(--white1); width:100px;}
+.mpboite {background-color: var(--white6); padding: 5px; border:1px solid var(--white3); width:100px;}
 
 
 .mpboite2 {
-    background-color: #a19daf;
-    color: var(--grey15);
-    font-family: 'arial';
+    background-color: var(--couleur102);
+    color: var(--white1);
+    font-family: 'kiona';
     letter-spacing: 2px;
     margin-bottom: -6px;
     font-weight: 900;
@@ -1999,9 +1999,9 @@ width:370px;}
 transition: 1s all;}
 
 .mpboite3 {
-    background-color: #a19daf;
-    color: #fff;
-    font-family: arial;
+    background-color: var(--couleur107);
+    color: var(--white1);
+    font-family: kiona;
     font-size: 12px;
     font-weight: 900;
     letter-spacing: 2px;
@@ -2012,14 +2012,17 @@ transition: 1s all;}
     width: 70px;
 transition: 1s all;
 }
-.mpboite2 a, .mpboite3 a {color: var(--grey15)!important;}
-.mpboite2:hover, .mpboite3:hover {background-color: #bcb8cb; color:#fff!important;}
-.mpboite2 a:hover, .mpboite3 a:hover {color:#fff!important;}
+.mpboite2 a, .mpboite3 a {color: var(--white1)!important;}
+
+.mpboite2:hover, .mpboite3:hover {background-color: var(--couleur402); color:var(--white1)!important;}
+
+.mpboite2 a:hover, .mpboite3 a:hover {color:var(--white1)!important;}
+
 .mpboite4 {
-    background-color: #a19daf;
-    color: #fff;
-    font-family: arial;
-    font-size: 7px;
+    background-color: var(--couleur102);
+    color: var(--white1);
+    font-family: kiona;
+    font-size: 9px;
     font-weight: 900;
     letter-spacing: 2px;
     padding: 6px 15px;
@@ -2028,8 +2031,8 @@ transition: 1s all;
     width: 70px;
 }
 
-.listemp {background-color: var(--white3);
-  border: 1px solid var(--white1);
+.listemp {background-color: var(--white6);
+  border: 1px solid var(--white3);
     padding: 10px;margin-left: 10px;width: 100%;overflow: auto;}
 
  .lesmsgpv .sceditor-container{width:540px!important;}
@@ -2043,20 +2046,27 @@ transition: 1s all;
 
 .mpfond td span.gen{text-transform:lowercase!important;font-size:10.15px;}
 
-.mpfond textarea, .mpfond input{background-color:rgba(260,260,260,0.9)!important;}
+.mpfond textarea, .mpfond input{background-color:var(--white6)!important;}
 
 
 /* ---------------------         AFFICHAGE MP     ----------------- */
 
-.mpr_1 {background-color: var(--white3);border: 1px solid var(--white1);outline: 1px solid var(--grey15);outline-offset: -3px;padding: 3px 10px;text-align: center;font-family: made saonara2;font-size: 15px;margin-bottom: -5px;letter-spacing: -2px;text-transform: uppercase;word-spacing: 3px;width: 140px;}
-.mpava {background-color: var(--white3);border: 1px solid var(--white1);outline: 1px solid var(--grey15);outline-offset: -3px; padding: 3px; width:154px;}
+.mpr_1 {background-color: var(--white6);border: 1px solid var(--white3);outline: 1px solid var(--white1);outline-offset: -3px;padding: 3px 10px;text-align: center;font-family: glamore;font-size: 15px;margin-bottom: -5px;letter-spacing: -2px;text-transform: uppercase;word-spacing: 3px;width: 140px;}
+
+.mpava {background-color: var(--white6);border: 1px solid var(--white3);outline: 1px solid var(--white1);outline-offset: -3px; padding: 3px; width:154px;}
+
 .mpava img{height: 140px;object-fit: cover;opacity: 0.8;width: 153px;}
 
-.mpliste {background-color: rgba(161, 158, 176,0.9);border: 1px solid var(--white3);outline: 1px solid rgb(161, 158, 176);color: #fff;font-family: fugaz one;text-transform: uppercase;outline-offset: -3px;padding: 4px 5px; width: 100%;}
-.mptext {text-align: justify; background-color: var(--white3);border: 1px solid var(--white1);outline: 1px solid var(--grey15);outline-offset: -3px;padding: 20px;margin-right: 10px;overflow: auto;margin-top: -5px;height:258px;}
-.mpr_t {background-color: var(--white3);border: 1px solid var(--white1);outline: 1px solid var(--grey15);outline-offset: -3px;padding: 20px;overflow: auto;margin-top: -5px;height:106px;}
-.mpsujet {background-color: var(--white3);border-top: 3px solid var(--couleur203);color: var(--couleur104);font-family: 'Bebas Neue';font-size: 8px!important;
-    letter-spacing: 1.5px;margin-top: 1px;margin-bottom: 11px;margin-right: 10px;outline: 1px solid var(--grey15);outline-offset: -3px;padding: 10px;text-align: center;}
+.mpliste {background-color: var(--white6);border: 1px solid var(--white1);outline: 1px solid var(--white3);font-family: fugaz one;text-transform: uppercase;outline-offset: -3px;padding: 4px 5px; width: 100%;}
+
+input.mpliste{color: var(--couleur102)!important;}
+
+.mptext {text-align: justify; background-color: var(--white6);border: 1px solid var(--white3);outline: 1px solid var(--white1);outline-offset: -3px;padding: 20px;margin-right: 10px;overflow: auto;margin-top: -5px;height:258px;}
+
+.mpr_t {background-color: var(--white6);border: 1px solid var(--white3);outline: 1px solid var(--white1);outline-offset: -3px;padding: 20px;overflow: auto;margin-top: -5px;height:106px;}
+
+.mpsujet {background-color: var(--white6);border-top: 3px solid var(--couleur107);color: var(--couleur102);font-family: 'Bebas Neue';font-size: 8px!important;
+    letter-spacing: 1.5px;margin-top: 1px;margin-bottom: 11px;margin-right: 10px;outline: 1px solid var(--white1);outline-offset: -3px;padding: 10px;text-align: center;}
 
 .mpligne .topictitle {
     display: inline;
