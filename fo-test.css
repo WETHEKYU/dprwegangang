@@ -1736,7 +1736,7 @@ margin-right:10px;
 border:3px solid var(--white6); 
 border-radius:0px;
 filter:grayscale(1) brightness(120%);
-opacity:0.25;transition:2s all;}
+opacity:0.35;transition:2s all;}
 
 .imagefo:hover{opacity:0.9; filter:grayscale(0);}
 
