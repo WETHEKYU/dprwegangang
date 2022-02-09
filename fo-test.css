@@ -1509,7 +1509,9 @@ border:1.5px solid var(--white3);}
 transition: all 2s;}
 .img_fp:hover{width:250px; height:400px; opacity:1; border:10px solid var(--couleur108);}
 
-.pre3{border:0px solid; text-align:center; text-transform:uppercase; font-size:7px; letter-spacing:1px; color: var(--couleur106);margin-top:-6px;}
+.pre3{border:0px solid; text-align:center; text-transform:uppercase; font-size:7px; letter-spacing:1px; color: var(--couleur205);margin-top:-6px;}
+
+
 
 
 .pre3 progress{width:130px; background-color:var(--couleur3); height:3px; border-radius:50px;-webkit-border-radius: 50px;
@@ -1527,7 +1529,7 @@ height:3px;
 
 .pre3 progress::-webkit-progress-value {
 height:3px;
-  background: var(--couleur108);
+  background: var(--couleur207);
 border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
