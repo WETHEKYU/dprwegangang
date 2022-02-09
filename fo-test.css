@@ -1865,7 +1865,7 @@ padding-right:5px; padding-left:5px;display:inline-block;margin-top:-6px;color:v
 
 hh{color:var(--grey5); font-style:italic;transition:1s all;}
 
-#tot_users{margin:0px auto;width:120px; height:20px;font-weight:700;font-family:quicksand;text-transform:uppercase;color:var(--couleur404); font-size:7px;letter-spacing:2px;text-align:center;transition:1s all;}
+#tot_users{margin:0px auto;width:120px; height:20px;font-weight:700;font-family:quicksand;text-transform:uppercase;color:var(--couleur204); font-size:7px;letter-spacing:2px;text-align:center;transition:1s all;}
 
 #tot_users strong{color:var(--couleur204);}
 
