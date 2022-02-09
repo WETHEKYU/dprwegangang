@@ -1572,9 +1572,9 @@ yy2{font-family:arial;
 font-weight:700;
 font-size:7px;
 text-transform:uppercase;
-background-color:var(--couleur3); 
+background-color:var(--couleur1); 
 padding:3px 7px;
-border:1px solid var(--couleur409);
+border:1px solid var(--couleur209);
 color:var(--white1);
 text-shadow:1px 1px var(--couleur108); }
 
