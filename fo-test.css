@@ -1867,7 +1867,7 @@ hh{color:var(--grey5); font-style:italic;transition:1s all;}
 
 #tot_users{margin:0px auto;width:120px; height:20px;font-weight:700;font-family:quicksand;text-transform:uppercase;color:var(--couleur404); font-size:7px;letter-spacing:2px;text-align:center;transition:1s all;}
 
-#tot_users strong{color:var(--couleur404);}
+#tot_users strong{color:var(--couleur204);}
 
 .nv_membre2 {
     width: 70px;
