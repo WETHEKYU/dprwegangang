@@ -377,6 +377,9 @@ color:var(--couleur1);}
 margin-right:30px;
 color:var(--couleur1);}
 
+.playlist_txt3 a{line-height:22px;}
+.playlist_txt0 a{line-height:21px; font-size:12px;}
+
 .playlist_tt{font-size:10px;
 text-align:center;
 margin-top:-10px;
