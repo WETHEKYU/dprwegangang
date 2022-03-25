@@ -79,12 +79,12 @@ background-color:rgba(250,250,250,0.1);}
 
 .c_pa_bn {
     border: 1px solid var(--couleur209);
-    height: 266px;
-    margin: 6px auto 10px;
+    height: 280px;
+    margin: 8px auto 0px;
     outline: solid 0px var(--white5);
     outline-offset: 0;
     padding-right: 1px;
-    padding-top: 94px;
+    padding-top: 80px;
     width: 781px;}
 
 .c_pa{display:flex; 
@@ -93,7 +93,7 @@ width:772px;
 height:350px;
 margin-left:auto;
 margin-right:auto;
-  margin-top:-94px;
+  margin-top:-80px;
 padding:4px;
 background-color:var(--white8);
   border:1px solid var(--white1);
@@ -354,7 +354,7 @@ filter:grayscale(60%);}
 
 .playlist_tt_txt{display:flex; flex-direction:column; width:140px; margin-top:-3px;}
 
-.playlist_tt_txt a{color:var(--couleur402);}
+.playlist_tt_txt a{color:var(--couleur202);}
 
 .playlist_txt{text-align:center; width:150px; height:50px;
 font-family:"STIX Two Math";
@@ -691,7 +691,7 @@ display:inline-block;
 
 .l_nv{ font-family:kiona; font-size:9px; font-weight:bold;margin-right:10px!important; letter-spacing:0px;}
 
-.l_nv a{color:var(--couleur1)!important;}
+.l_nv a{color:var(--couleur202)!important;}
 
 .nav2 div{margin-left:41px;}
 
@@ -911,7 +911,7 @@ letter-spacing:0.5px;
 margin-right:2px;
 margin-top:-10px;}
 
-.btns_pst a{color:var(--couleur406)!important; margin-right:1px;
+.btns_pst a{color:var(--couleur1)!important; margin-right:1px;
 transition:2s all;}
 
 .btns_pst a:hover{letter-spacing:3px;
@@ -1667,7 +1667,7 @@ input.post{margin-bottom:10px;margin-top:2px;}
     display: flex; flex-direction: row; font-family: 'kiona';
     color: var(--couleur1);
     font-size: 8px;justify-content: space-evenly;letter-spacing: 3px;padding: 7px;text-transform: uppercase; margin-top:4px;}
-.lienscate a {font-family: kiona!important; color: var(--couleur102)!important;}
+.lienscate a {font-family: kiona!important; color: var(--couleur1)!important;}
 
 .border-forum {
     background-color: var(--white8);
@@ -1720,15 +1720,15 @@ padding-top:11px;
 
 .sousforums{border-top:1px solid var(--white1); width: 656px; position: absolute; left: 85px; top: 105px; text-align: center; padding:3px;}
 
-.sousforums a{ color: var(--couleur405)!important; font-size: 9px; font-weight: 100; letter-spacing: 0px; text-transform: lowercase; font-family: kiona;}
+.sousforums a{ color: var(--couleur205)!important; font-size: 9px; font-weight: 100; letter-spacing: 0px; text-transform: lowercase; font-family: kiona;}
 
 .ListeSousForums {font-size:0px;}
 
-.ListeSousForums a {font-size:7px; padding-right:5px; letter-spacing:1.5px; color: var(--couleur402)!important; font-weight:900;}
+.ListeSousForums a {font-size:7px; padding-right:5px; letter-spacing:1.5px; color: var(--couleur202)!important; font-weight:900;}
 
 .ListeSousForums a:last-child {padding-right:0px;}
 
-.ListeSousForums a:after {content:" - "; font-size:11px; color:var(--couleur407);}
+.ListeSousForums a:after {content:" - "; font-size:11px; color:var(--couleur106);}
 
 .descriptionfo {background-color: transparent; width:426px; height:70px; position: absolute; right: 5px; top: 25px; padding:5px;}
 
@@ -1932,34 +1932,37 @@ background-color:var(--couleur104);
     top: 43px;
     height: 20px;
     width: 99px;
+object-fit:cover;
 }
 
-.nouveauxmessages {background-image: url(https://images2.imgbox.com/cf/c7/Gtc1F3S1_o.png);
+.nouveauxmessages {background-image: url(https://images2.imgbox.com/93/08/ijuPFq8y_o.png);
     height: 28px;
     width: 90px;
     background-size: 93px;
     background-position: center;
     opacity: 0.7;
     border: 1px solid var(--white3);
+	
 }
-.pasdenouveauxmessages {background-image: url(https://images2.imgbox.com/93/08/ijuPFq8y_o.png);
+.pasdenouveauxmessages {background-image: url(https://images2.imgbox.com/5e/9e/uCRHav1F_o.png);
     height: 28px;
     width: 90px;
     background-size: 90px;
     background-position: center;
     opacity: 0.6;
     border: 1px solid var(--white3);
+	
 }
-.forumverrouille {background-image: url(https://images2.imgbox.com/5e/9e/uCRHav1F_o.png);height: 28px;width: 90px;background-size: cover;opacity: 0.9;}
+.forumverrouille {background-image: url(https://images2.imgbox.com/cf/c7/Gtc1F3S1_o.png);height: 28px;width: 90px;background-size: cover;opacity: 0.9;}
 
-.pasdenouveauxmessagestopics {background-image: url('https://images2.imgbox.com/fa/ea/I9DTKz0B_o.png'); 
+.pasdenouveauxmessagestopics {background-image: url('https://images2.imgbox.com/5e/9e/uCRHav1F_o.png'); 
   width:99px; height:20px;}
 
 .nouveauxmessagestopics {
-    background-image: url('https://images2.imgbox.com/7e/66/811dB6w4_o.png');
+    background-image: url('https://images2.imgbox.com/5e/9e/uCRHav1F_o.png');
  height: 20px; width: 99px;}
 
-.forumverrouilletopics {background-image: url('https://images2.imgbox.com/bb/77/YWgPxAUR_o.png'); 
+.forumverrouilletopics {background-image: url('https://images2.imgbox.com/5e/9e/uCRHav1F_o.png'); 
   background-size: 29px 28px; width: 230px; height: 68px;}
 
 
@@ -2325,6 +2328,12 @@ font-size:11px;font-family:Quicksand;}
 .relativpos{position:relative;top:43%;}
 .relativpos2{position:relative;top:30%;}
 
+
+/* IMAGES DES EXAMS */
+img[src*="https://images2.imgbox.com/f9/47/DSyTPTsb_o.png"], img[src*="https://images2.imgbox.com/42/0e/ZOFUxkiK_o.png"], img[src*="https://images2.imgbox.com/97/cb/TQ0mCYet_o.png"], img[src*="https://images2.imgbox.com/97/88/OnZjcOPp_o.png"], img[src*="https://images2.imgbox.com/3b/46/2EeswZbA_o.png"], img[src*="https://images2.imgbox.com/73/77/nq3rr5ET_o.png"], img[src*="https://images2.imgbox.com/5e/f1/N1rpqTNF_o.png"], img[src*="https://images2.imgbox.com/2c/e9/kjG1Wmqh_o.png"], img[src*="https://images2.imgbox.com/a7/4b/oPmJQzpc_o.png"], img[src*="https://images2.imgbox.com/17/65/c8SXGEPw_o.png"], img[src*="https://images2.imgbox.com/19/e0/Q60mQUwk_o.png"], img[src*="https://images2.imgbox.com/7a/c6/WcFFVujm_o.png"], img[src*="https://images2.imgbox.com/c3/d4/Bsajl5KV_o.png"], img[src*="https://images2.imgbox.com/2e/3b/aIJxpqx5_o.png"], img[src*="https://images2.imgbox.com/d0/ce/0SqoMFty_o.png"], img[src*="https://images2.imgbox.com/9c/a6/Apd7uLy0_o.png"], img[src*="https://images2.imgbox.com/2a/2a/wtVc5iFn_o.png"], img[src*="https://images2.imgbox.com/d2/26/EzE7CbdT_o.png"], img[src*="https://images2.imgbox.com/0b/78/U1WTRicv_o.png"], img[src*="https://images2.imgbox.com/c9/a3/nNxtmhVm_o.png"], img[src*="https://images2.imgbox.com/6a/3e/wlfaPW9L_o.png"]{
+       width:250px;
+height:150px;
+      }
 
 /*-------------------------------------------------- CODAGE JOURNAL --------------------------------------------------*/
 .fp_2.jrnl1{outline:none;max-height: fit-content;display: inline-block;padding: 0px 10px 10px 10px;text-align: justify;width: 522px;}
