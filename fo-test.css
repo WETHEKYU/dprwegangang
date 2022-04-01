@@ -107,7 +107,7 @@ width:220px; }
 
 .pa_tt{font-size:36px;
 font-family:"glamore";
-color:var(--couleur204);
+color:var(--couleur403);
 margin:5px auto 0;
 margin-bottom:-11px;
 transition:2s all;}
@@ -167,7 +167,7 @@ height:26px;}
 #us_online{font-size:9px;
 margin:auto;
 margin-top:21px;
-color:var(--couleur2);
+color:var(--couleur403);
 text-align:center;
 font-style:italic;
 font-family:'mulli';}
@@ -1724,7 +1724,7 @@ padding-top:11px;
 
 .ListeSousForums {font-size:0px;}
 
-.ListeSousForums a {font-size:7px; padding-right:5px; letter-spacing:1.5px; color: var(--couleur202)!important; font-weight:900;}
+.ListeSousForums a {font-size:7px; padding-right:5px; letter-spacing:1.5px; color: var(--couleur403)!important; font-weight:900;}
 
 .ListeSousForums a:last-child {padding-right:0px;}
 
@@ -2176,7 +2176,7 @@ input.mpliste{color: var(--couleur102)!important;}
     width: 136px;
 }
 
-.detmemberlist {font-family: 'arial'; text-transform: uppercase;font-size: 8px;letter-spacing: 0px;color: var(--couleur106);}
+.detmemberlist {font-family: 'arial'; text-transform: uppercase;font-size: 8px;letter-spacing: 0px;color: var(--couleur1);}
 
 /*--------------------------------------------------          CODAGE TEXTES / FICHES ADMINISTRATIFS        --------------------------------------------------*/
 /* --------------------- MODELES ADMINISTRATIFS ----------------- */
