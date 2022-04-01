@@ -479,9 +479,9 @@ text-transform:uppercase; letter-spacing:0px;max-width:130px;margin:auto;}
 .photobooth_cps span.label{display:none;}
 
 .cercle_img img {
-    filter: grayscale(100%) invert(34%) sepia(44%) saturate(12273%) hue-rotate(342deg) brightness(86%) contrast(94%)!important;
+    filter: grayscale(100%) invert(34%) sepia(44%) saturate(12273%) hue-rotate(322deg) brightness(86%) contrast(94%)!important;
     left: -13px;
-    opacity: 0.7;
+    opacity: 0.2;
     position: absolute;
     top: 17px!important;
     width: 216px;
