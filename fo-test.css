@@ -1539,8 +1539,8 @@ border-radius: 50px;
 box-shadow: inset 0 0px 0px var(--couleur3), 0 0px 0 var(--couleur3);
 }
 
-.fp_tt{position:relative;text-align:center; font-size:22px; font-family:'glamore'; margin-top:15px; height:20px; color:var(--couleur103); transition:all 1s;}
-.fp_tt:hover{color:var(--couleur403);}
+.fp_tt{position:relative;text-align:center; font-size:22px; font-family:'glamore'; margin-top:15px; height:20px; color:var(--couleur403); transition:all 1s;}
+.fp_tt:hover{color:var(--couleur203);}
 
 .fp_tt .tt_bulle_txt{display:none;width:100px;font-size:8px;font-family:times;font-weight:400!important;height:20px; background-color:var(--couleur102);color:var(--white1);line-height:22px;position:absolute;z-index:1;right:-100px;top:20px;transition:all 2s;}
 
@@ -1558,12 +1558,13 @@ object-fit:cover; border-radius:50px;opacity:0.9;transition:all 1s; border:3px s
 
 .fp_cp{height:20px; width:200px; 
 text-align:center;
-border:1px solid var(--white1); background-image:linear-gradient(-10deg,var(--couleur202), var(--couleur105));
-outline:1px  solid var(--couleur408);
+border:1px solid var(--white1); background-image:linear-gradient(-10deg,var(--couleur406), var(--couleur406));
+outline:1px  solid var(--couleur406);
 outline-offset:-2px;
 text-transform:uppercase;
 font-size:8px;
 line-height:22px;
+	text-shadow:1px 1px var(--couleur407);
 color:var(--white1);
 letter-spacing:0.7px;overflow-y:hidden; text-overflow: ellipsis;}
 
