@@ -634,20 +634,20 @@ display:inline-block;
 #field_id17 img:hover{height:40px; margin-top:16px; opacity:1;}
 
 /* MSG */
-#field_id-6{position:absolute; top:473px; left:170px; border:0px solid; width:50px; height:50px; text-align:center; line-height:35px;font-size:7px; color:var(--couleur1);}
+#field_id-6{position:absolute; top:473px; left:170px; border:0px solid; width:50px; height:50px; text-align:center; line-height:35px;font-size:7px; color:var(--couleur403);}
 #field_id-6 span{display:none;}
 
 
 
 /* SIMFLOUZ */
-#field_id-13{position:absolute; top:473px; left:14px;  border:0px solid;width:50px; height:50px; text-align:center; line-height:35px;font-size:7px; color:var(--couleur1);}
+#field_id-13{position:absolute; top:473px; left:14px;  border:0px solid;width:50px; height:50px; text-align:center; line-height:35px;font-size:7px; color:var(--couleur403);}
 #field_id-13 span{display:none;}
 
 /* RPS */
-#field_id18{position:absolute; top:473px; left:92px; border:0px solid;width:50px; height:50px; text-align:center; line-height:35px;font-size:7px; color:var(--couleur1);}
+#field_id18{position:absolute; top:473px; left:92px; border:0px solid;width:50px; height:50px; text-align:center; line-height:35px;font-size:7px; color:var(--couleur403);}
 #field_id18 span{display:none;}
 
-.pf_inf3{background-color:var(--white8); border:1px solid var(--white3); text-transform:uppercase; font-size:7px; color:var(--couleur1); letter-spacing:0.5px; outline:2px solid var(--white6); outline-offset:-7px;}
+.pf_inf3{background-color:var(--white8); border:1px solid var(--white3); text-transform:uppercase; font-size:7px; color:var(--couleur402); letter-spacing:0.5px; outline:2px solid var(--white6); outline-offset:-7px;}
 
 .pf_cont{display:flex; margin-top:20px;  justify-content:center; width:510px; border:0px solid;padding-right:5px; padding-left:5px; color:none; background-color:var(--white8); height:30px; border:1px solid var(--white3);}
 .pf_cont img{margin-top:5px; }
@@ -1714,7 +1714,7 @@ padding-top:11px;
 
 .titrefo {position: absolute; right: 20px; top: 10px; border-bottom: transparent; transition: 2.5s all;}
 
-.titrefo a {color: var(--couleur103)!important;font-size: 15px; text-transform: margin;font-family: 'made saonara2'; text-transform:lowercase;line-height:15px}
+.titrefo a {color: var(--couleur403)!important;font-size: 15px; text-transform: margin;font-family: 'made saonara2'; text-transform:lowercase;line-height:15px}
 
 .titrefo:hover {letter-spacing:2px; border-bottom: 1px solid var(--couleur207);}
 
