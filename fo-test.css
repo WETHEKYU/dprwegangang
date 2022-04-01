@@ -1198,9 +1198,9 @@ background-color:var(--white6);}
 margin-top:44px!important; 
 margin-left:30px!important; 
 font-family:glamore!important; 
-color: var(--couleur102)!important; transition:all 1s!important;}
+color: var(--couleur405)!important; transition:all 1s!important;}
 
-.btt_tt:hover{color: var(--couleur402)!important; }
+.btt_tt:hover{color: var(--couleur403)!important; }
 
 .btt_img{width:100px; height:100px; 
 object-fit:cover; 
@@ -1299,8 +1299,8 @@ font-family:Quicksand;
 margin-top:10px;
 margin-bottom:20px;
 font-weight: 700;
-background-color: var(--couleur204); 
-border:1px solid var(--couleur204); 
+background-color: var(--couleur1); 
+border:1px solid var(--couleur102); 
 color:var(--white1);
 line-height: 14px;
 text-transform:uppercase;
@@ -1451,7 +1451,7 @@ font-weight:500;}
 
 .pl_ct2{width:490px; background-color:var(--white8); margin:auto; padding-top:15px;}
 
-.pl_tt{width:430px; background:linear-gradient(7deg, var(--couleur3),var(--couleur304)); margin:auto;
+.pl_tt{width:430px; background:-webkit-linear-gradient(-170deg,var(--couleur103),var(--couleur204)); margin:auto;
 outline:1px double var(--white2);outline-offset:2px; text-align:center; height:30px; line-height:30px; font-size:20px; font-family:glamore; text-transform:lowercase; letter-spacing:1px; color:var(--white1);}
 .pl_tt a{color:var(--white1);}
 
@@ -1982,7 +1982,7 @@ object-fit:cover;
 
 .code div.cont_code {max-height: 130px;padding: 5px;overflow: auto;text-align: justify; overflow-x: hidden;}
 
-.selectCode {background:linear-gradient(-270deg,var(--couleur205)!important, var(--couleur101));color: var(--white1);height:13px;line-height:13px;margin-top:5px; padding: 2px 10px;float: right; text-transform: uppercase; border-radius:1px;}
+.selectCode {background:linear-gradient(-270deg,var(--couleur408), var(--couleur405))!important;color: var(--white1);height:13px;line-height:13px;margin-top:5px; padding: 2px 10px;float: right; text-transform: uppercase; border-radius:1px;}
 
 .spoiler_closed {background: var(--white2);outline: 2px solid var(--white1);color: var(--grey14);outline-offset: -4px;padding: 0;}
 
