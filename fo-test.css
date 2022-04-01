@@ -945,7 +945,7 @@ overflow-x:hidden;}
 .rep-button, .rep-button:active, .rep-button:focus {
     background:var(--white6)!important;
     border: 1px solid var(--white3)!important; 
-color:var(--couleur2)!important;
+color:var(--couleur3)!important;
     border-radius: 0px!important; 
     font-family: times!important; 
     font-size: 7px!important; 
