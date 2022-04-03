@@ -2338,6 +2338,9 @@ img[src*="https://images2.imgbox.com/f9/47/DSyTPTsb_o.png"], img[src*="https://i
 height:150px;
       }
 
+/* IMAGES DES DÉS */
+      img[src*="https://images2.imgbox.com/02/21/AncG2zSU_o.png"], img[src*="https://images2.imgbox.com/ef/94/w9PnREud_o.png"]{width:220px;}
+
 /*-------------------------------------------------- CODAGE JOURNAL --------------------------------------------------*/
 .fp_2.jrnl1{outline:none;max-height: fit-content;display: inline-block;padding: 0px 10px 10px 10px;text-align: justify;width: 522px;}
 .fp_2.jrnl2{font-family: kaftan;background: -webkit-linear-gradient(-170deg,#8aa9bb,#a19daf);margin-top: -3px;opacity: 0.9;margin-left: -12px;
